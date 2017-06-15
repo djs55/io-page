@@ -23,7 +23,7 @@
 
 (library
  ((name io_page_unix)
-  (public_name io-page-unix)
+  (public_name io-page.unix)
   (libraries (io-page bigarray))
   (modules (Io_page_unix_dummy))
   (c_names (stub_alloc_pages stub_get_addr))
